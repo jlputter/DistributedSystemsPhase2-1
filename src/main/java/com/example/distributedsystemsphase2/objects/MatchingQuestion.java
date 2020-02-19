@@ -1,4 +1,4 @@
-package objects;
+package com.example.distributedsystemsphase2.objects;
 
 public class MatchingQuestion {
 
