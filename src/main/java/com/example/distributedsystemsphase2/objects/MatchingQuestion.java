@@ -1,6 +1,6 @@
 package com.example.distributedsystemsphase2.objects;
 
-public class MatchingQuestion {
+public class MatchingQuestion implements Question{
 
     String prompt;
     String set1;
@@ -14,6 +14,8 @@ public class MatchingQuestion {
         this.answer = answer;
     }
 
+    public void addPrompt(String prompt) { this.prompt = prompt; }
+
     public void addSet1(String set1){
         this.set1 = set1;
     }
@@ -21,6 +23,7 @@ public class MatchingQuestion {
     public void addSet2(String set2){
         this.set1 = set2;
     }
+
     public void addAnswer(String answer){
         this.answer = answer;
     }

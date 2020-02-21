@@ -1,7 +1,7 @@
 package com.example.distributedsystemsphase2.objects;
 import java.util.*;
 
-public class MCQuestion extends Question {
+public class MCQuestion implements Question {
 
     String prompt;
     ArrayList<String> options;

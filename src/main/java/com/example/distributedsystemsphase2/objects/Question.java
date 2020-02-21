@@ -1,8 +1,8 @@
 package com.example.distributedsystemsphase2.objects;
 
-public class Question {
+public interface Question {
 
-    String prompt;
-    String answer;
+    void addAnswer(String answer);
+    void addPrompt(String prompt);
 
 }
