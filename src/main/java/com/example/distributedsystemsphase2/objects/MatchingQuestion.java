@@ -2,6 +2,8 @@ package com.example.distributedsystemsphase2.objects;
 
 public class MatchingQuestion implements Question{
 
+    //Author: Trey Roche
+
     String prompt;
     String set1;
     String set2;

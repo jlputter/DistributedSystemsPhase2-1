@@ -3,6 +3,8 @@ import java.util.*;
 
 public class Quiz {
 
+    //Author: Trey Roche
+
     public String title;
     public String directions;
     public ArrayList<Question> questions;

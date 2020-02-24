@@ -8,6 +8,9 @@ public class MCQuestion implements Question {
     String answer;
 
     public MCQuestion(String prompt, ArrayList<String> options, String answer){
+
+        //Author: Trey Roche
+
         this.prompt = prompt;
         this.options = options;
         this.answer = answer;

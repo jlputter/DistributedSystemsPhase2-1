@@ -4,13 +4,19 @@ import java.util.*;
 
 public class Response {
 
-    public ArrayList<String> answers;
+    //Author: Trey Roche
 
-    public Response(ArrayList<String> answers){
+    public ArrayList<String> answers;
+    public String name;
+
+    public Response(ArrayList<String> answers, String name){
+        this.name = name;
         this.answers = answers;
     }
 
     public void addAnswer(String answer){
         this.answers.add(answer);
     }
+
+    public void addName(String name) { this.name = name; }
 }
