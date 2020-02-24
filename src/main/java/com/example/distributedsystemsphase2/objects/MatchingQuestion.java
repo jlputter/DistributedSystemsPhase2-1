@@ -23,7 +23,7 @@ public class MatchingQuestion implements Question{
     }
 
     public void addSet2(String set2){
-        this.set1 = set2;
+        this.set2 = set2;
     }
 
     public void addAnswer(String answer){

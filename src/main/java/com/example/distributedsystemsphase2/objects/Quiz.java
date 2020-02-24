@@ -30,4 +30,8 @@ public class Quiz {
         }
     }
 
+    public void addQuestion(Question q){
+        this.questions.add(q);
+    }
+
 }
